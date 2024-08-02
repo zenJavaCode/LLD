@@ -20,10 +20,10 @@ public class Main {
 //        }
     }
 
-    // If we do the downsizing then i Will face problems.
+    // TODO  Note :- If we do the downsizing then i Will face problems.
 
     // TODO for example if i create a vehicle of Bicycle then it do have any engine which will create problems
     // TODO to resolve  this issue we will put only very generic methods which are 100% true for all of their type.
-    // Now we put another class in between which we called EngineVehicles
-    // which only have vehicles which have engines like car, Bike and so on...
+    //  Now we put another class in between which we called EngineVehicles
+    //  which only have vehicles which have engines like car, Bike and so on...
 }

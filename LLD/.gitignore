@@ -1,7 +1,10 @@
 ### IntelliJ IDEA ###
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
+.idea/                     # Ignore entire .idea directory
+*.xml                      # Ignore all XML files
+!.idea/uiDesigner.xml   # Ignore uiDesigner.xml
+out/                       # Ignore out directory
+!**/src/main/**/out/       # Except within src/main
+!**/src/test/**/out/       # Except within src/test
 
 ### Eclipse ###
 .apt_generated
@@ -11,9 +14,9 @@ out/
 .settings
 .springBeans
 .sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
+bin/                       # Ignore bin directory
+!**/src/main/**/bin/       # Except within src/main
+!**/src/test/**/bin/       # Except within src/test
 
 ### NetBeans ###
 /nbproject/private/
@@ -23,7 +26,7 @@ bin/
 /.nb-gradle/
 
 ### VS Code ###
-.vscode/
+.vscode/                   # Ignore .vscode directory
 
 ### Mac OS ###
-.DS_Store
+.DS_Store                  # Ignore MacOS-specific files
