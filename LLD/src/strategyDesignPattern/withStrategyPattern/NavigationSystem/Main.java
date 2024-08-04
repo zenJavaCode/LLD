@@ -9,16 +9,13 @@ public class Main {
          Please provide a basic code structure in a language of your choice.*/
     public static void main(String[] args) {
 
-
         NavigationSystem navSystem = new NavigationSystem(new RouteStrategyOnShotestDistance());
     navSystem.navigate();
 
         navSystem.setRouteStrategy(new RouteStrategyOnFastestPath());
         System.out.println(navSystem.navigate());
-
 //        navSystem.setRouteStrategy(new FuelEfficientStrategy());
 //        System.out.println(navSystem.navigate("A", "B"));
-
 
     }
 }
